@@ -1,383 +1,377 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Travii Landing page</title>
+    
+    <meta name="author" content="Devcrud">
+    <title>resume</title>
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+	<link rel="stylesheet" href="assets/css/johndoe.css">
+    <style>
+        .slideshow-container {
+          max-width: 800px;
+          position: relative;
+          margin: auto;
+        }
+        .mySlides {
+          display: none;
+          width: 100%;
+        }
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+      
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        .dot {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+      
+        .active {
+          background-color: #717171;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+  input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
 
-    <link rel="shortcut icon" href="assets/images/vac.icon.webp" type="image/png">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/LineIcons.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+      </style>
 
 </head>
-
-<body> 
-
-    <div class="preloader">
-        <div class="loader">
-            <div class="ytp-spinner">
-                <div class="ytp-spinner-container">
-                    <div class="ytp-spinner-rotator">
-                        <div class="ytp-spinner-left">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                        <div class="ytp-spinner-right">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/profile.php?id=100094082933685"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/bhargavi_javvadi_/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/bhargavi-javvadi-1570b8285/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+               
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h1 class="header-title">Javvadi Bhargavi</h1>
+                <h6 class="header-mono" >SRKR'25||Computer Science and Design(CSD)</h6>
+                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i> Resume</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+                <ul class="navbar-nav brand">
+                    <img src="C:\Users\bharg\OneDrive\Pictures\bhh.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Javvadi Bhargavi</h5>
+                        <div class="brand-subtitle">CSD</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Computer Science student</h5>
+                <p class="mt-20">I am a dedicated and passionate computer science student currently in my third year of pursuing a Bachelor of Technology (BTech) degree. My journey in the world of technology has been an exciting and intellectually stimulating one.</p>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Birthdate</span> : 02/10/2003</li>
+                    <li><span>Email</span> : bhargavijavvadi02@gmail.com</li>
+                    <li><span>Phone</span> : 9390456674</li>
+             <li><span>Address</span> : K.P Palem(North),Mogaltur mandal,West Godavari District,Andhra pradesh</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link" href="https://www.facebook.com/profile.php?id=100094082933685"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.instagram.com/bhargavi_javvadi_/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/bhargavi-javvadi-1570b8285/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                   
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>UX Design</h6>
+                        <p class="subtitle"> </p><br>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Web Development</h6>
+                        <p class="subtitle"></p><br>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Digital Marketing</h6>
+                        <p class="subtitle"></p><br>
+                        <hr>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="header-area">
-        <div class="navbar-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="#">
-                                <img src="assets/images/vac.icon.webp" alt="Logo" height="80" width="100"><b> TRAVIII</b>
-                            </a>
-
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a class="page-scroll" href="#home">HOME</a>
-                                    </li>
-                                   
-                                    <li class="nav-item">
-                                        <a class="page-scroll" href="#portfolio">PLACES</a>
-                                    </li>
-                                    
-                                    <li class="nav-item">
-                                        <a class="page-scroll" href="#contact">CONTACT</a>
-                                    </li>
-                                </ul>
+  
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Internships</h4>
+                                <span class="line"></span>  
                             </div>
-
-                            <div class="navbar-btn d-none mt-15 d-lg-inline-block">
-                                <a class="menu-bar" href="#side-menu-right"><i class="lni-menu"></i></a>
-                            </div>
-                        </nav> 
-                    </div>
-                </div> 
-            </div> 
-        </div> 
-        
-        <div id="home" class="slider-area">
-            <div class="bd-example">
-                <div id="carouselOne" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselOne" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselOne" data-slide-to="1"></li>
-                        <li data-target="#carouselOne" data-slide-to="2"></li>
-                    </ol>
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item bg_cover active" style="background-image: url(assets/images/t1.jpg)">
-                            <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-xl-6 col-lg-7 col-sm-10">
-                                            <h2 class="carousel-title"> Keep calm and travel on. </h2>
-                                            <ul class="carousel-btn rounded-buttons">
-                                                <li><a class="main-btn rounded-three" href="#">SIGN IN</a></li>
-                                                <li><a class="main-btn rounded-one" href="#">SIGN  UP</a></li>
-                                            </ul>
-                                        </div>
-                                    </div> 
-                                </div> 
-                            </div> 
-                        </div> 
-
-                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/t6.jpg)">
-                            <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-xl-6 col-lg-7 col-sm-10">
-                                            <h2 class="carousel-title">Visit the places,to refresh your mind...</h2>
-                                            <ul class="carousel-btn rounded-buttons">
-                                                <li><a class="main-btn rounded-three" href="#">SIGN IN</a></li>
-                                             <li><a class="main-btn rounded-one" href="#">SIGN UP</a></li>
-                                            </ul>
-                                            </div>
-                                       </div> 
-                                </div>
-                            </div> 
-                        </div> 
-
-                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/t7.jpg)">
-                            <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-xl-6 col-lg-7 col-sm-10">
-                                            <h2 class="carousel-title">Travel is the only thing you buy that makes you richer</h2>
-                                            <ul class="carousel-btn rounded-buttons">
-                                                <li><a class="main-btn rounded-three" href="#">SIGN IN</a></li>
-                                                <li><a class="main-btn rounded-one" href="#">SIGN UP</a></li>
-                                            </ul>
-                                        </div>
-                                     </div> 
-                                          </div> 
-                            </div> 
                         </div>
-                    </div> 
-
-                    <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
-                        <i class="lni-arrow-left-circle"></i>
-                    </a>
-
-                    <a class="carousel-control-next" href="#carouselOne" role="button" data-slide="next">
-                        <i class="lni-arrow-right-circle"></i>
-                    </a>
-                </div> 
+                        <div class="card-body">
+                            <h6 class="title text-danger">UI/UX DESIGN</h6>
+                            <P>I am thrilled to share the incredible experiences, skills gained, and growth achieved during this enriching period. Throughout this internship, 
+                                I've had the privilege to work alongside a dynamic team at <span style="color: rgb(28, 64, 205);">PurpleLane</span> , using the powerful Figma tool to craft exceptional user experiences.
+                                 This has been an invaluable opportunity that has equipped me with the skills to excel in the world of digital design.</P>
+                           
+                            <hr>
+                            <h6 class="title text-danger">DIGITAL MARKETING</h6>
+                            <P>During my time as a Digital Marketing Intern at <span style="color: rgb(199, 28, 136);">Digistark</span>, I have had the invaluable opportunity to delve into the world of 
+                                digital marketing and contribute to various projects and campaigns. Over the course of duration of 1week, I have gained practical 
+                                experience and insights that have significantly
+                                 enhanced my understanding of digital marketing strategies and their impact on business success.</P>
+                            
+                            <hr>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">B-TECH</h6>
+                            <P ><b></P>Sagi Rama Krishnam Raju Engineering College</b></p>
+                            <P class="subtitle">Computer Science and Design(CSD)<br>Bhimavarm<br>2021-2025<br>CGPA:8.95</P>
+                            <hr>
+                            <h6 class="title text-danger">INTERMEDIATE</h6>
+                            <P><b>Aditya Junior college(Narsapur)</b></P>
+                            <P> MPC<br>2019-2021<br>Percentage:96.1</P>
+                            <hr>
+                            <h6 class="title text-danger">SCHOOL</h6>
+                            <P><b>Sri Chaitanya Techno school(Narsapur)</b></P>
+                            <P>2018-2019<br>Grade:10</P>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>C Programming</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 81%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Java Programming</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>HTML</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>CSS</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>MYSql</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Python</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Telugu</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
 
-   
 
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 style="color: rgb(234, 230, 238);">Contact Details</h2>
+            <button class="btn bg-primary w-lg" >Ping me</button>
+        </div>
+    </section><br><br>
 
-
-    <section id="portfolio" class="portfolio-area">
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center pb-20">
-                        <h3 class="title">Best Places in India</h3>
-                        <p class="text">“Don't tell me how educated you are, tell me how much you have travelled.”</p>
-                    </div> 
-                </div>
-            </div> 
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="portfolio-menu pt-30 text-center">
-                        <ul>
-                            <li data-filter="*" class="active">ALL WORK</li>
-                            <li data-filter=".branding-3">Kerala</li>
-                            <li data-filter=".marketing-3">Goa</li>
-                            <li data-filter=".planning-3">Leh</li>
-                            <li data-filter=".research-3">Delhi</li>
-                        </ul>
-                    </div> 
-                </div>
-            </div> 
-            <div class="row grid">
-                <div class="col-lg-4 col-sm-6 branding-3 planning-3">
-                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <div class="portfolio-image">
-                            <img src="assets/images/k1.jpg" alt="">
-                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                <div class="portfolio-content">
-                                    <div class="portfolio-icon">
-                                        <a class="image-popup" href="assets/images/d3.webp"><i class="lni-zoom-in"></i></a>
-                                    </div>
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="lni-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-text">
-                            <h4 class="portfolio-title"><a href="#">Peace!!!</a></h4>
-                            <p class="text">Sometimes you just need a break, in a Beautiful place..</p>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-lg-4 col-sm-6 marketing-3 research-3">
-                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                        <div class="portfolio-image">
-                            <img src="assets/images/d3.webp" alt="">
-                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                <div class="portfolio-content">
-                                    <div class="portfolio-icon">
-                                        <a class="image-popup" href="assets/images/k3.jpg"><i class="lni-zoom-in"></i></a>
-                                    </div>
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="lni-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-text">
-                            <h4 class="portfolio-title"><a href="#">Peace!!!</a></h4>
-                            <p class="text">Sometimes you just need a break, in a Beautiful place..</p>
-                        </div>
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="contact.php" method="post">
+                            <form action="contact.php" method="post">
+                                <label for="username">Username:</label>
+                                <input type="text" id="username" name="username" required><br><br>
+                        
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required><br><br>
+                        
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="7" required></textarea><br><br>
+                        
+                                <input type="submit" value="Send">
+                            </form>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 branding-3 marketing-3">
-                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
-                        <div class="portfolio-image">
-                            <img src="assets/images/g2.webp" alt="">
-                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                <div class="portfolio-content">
-                                    <div class="portfolio-icon">
-                                        <a class="image-popup" href="assets/images/l4.jpg"><i class="lni-zoom-in"></i></a>
-                                    </div>
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="lni-link"></i></a>
-                                    </div>
-                                </div>
+               
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ 9390456674</span></h6>
                             </div>
                         </div>
-                        <div class="portfolio-text">
-                            <h4 class="portfolio-title"><a href="#">Peace!!!</a></h4>
-                            <p class="text">Sometimes you just need a break, in a Beautiful place..</p>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">K.P Palem(North),Mogaltur Mandal,West Godavari District,Andhra Pradesh</span></h6>
+                            </div>
                         </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">bhargavijavvadi02@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul> 
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 planning-3 research-3">
-                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <div class="portfolio-image">
-                            <img src="assets/images/d1.jpg" alt="">
-                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                <div class="portfolio-content">
-                                    <div class="portfolio-icon">
-                                        <a class="image-popup" href="assets/images/d2.jpg"><i class="lni-zoom-in"></i></a>
-                                    </div>
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="lni-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-text">
-                            <h4 class="portfolio-title"><a href="#">Peace!!!</a></h4>
-                            <p class="text">Sometimes you just need a break, in a Beautiful place..</p>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-lg-4 col-sm-6 marketing-3">
-                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                        <div class="portfolio-image">
-                            <img src="assets/images/g1.webp" alt="">
-                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                <div class="portfolio-content">
-                                    <div class="portfolio-icon">
-                                        <a class="image-popup" href="assets/images/g2.webp"><i class="lni-zoom-in"></i></a>
-                                    </div>
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="lni-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-text">
-                            <h4 class="portfolio-title"><a href="#">Peace!!!</a></h4>
-                            <p class="text">Sometimes you just need a break, in a Beautiful place..</p>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-lg-4 col-sm-6 planning-3">
-                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
-                        <div class="portfolio-image">
-                            <img src="assets/images/l1.jpg" alt="">
-                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
-                                <div class="portfolio-content">
-                                    <div class="portfolio-icon">
-                                        <a class="image-popup" href="assets/images/l2.jpeg"><i class="lni-zoom-in"></i></a>
-                                    </div>
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="lni-link"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="portfolio-text">
-                            <h4 class="portfolio-title"><a href="#">Peace!!!</a></h4>
-                            <p class="text">Sometimes you just need a break, in a Beautiful place..</p>
-                        </div>
-                    </div> 
-                </div>
-            </div> 
-        </div> 
-    </section>
-
-
-    <section id="contact" class="contact-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center pb-20">
-                        <h3 class="title">Get in touch</h3>
-                        <p class="text">Get in touch,to book your vacation holiday....</p>
-                    </div> 
                 </div>
             </div>
-                <div class="col-lg-6">
-                    <div class="contact-form form-style-one mt-35 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                        <form  id="contact-form" action="assets/contact.php" method="post">
-                            <div class="form-input mt-15">
-                                <label>Name</label>
-                                <div class="input-items default">
-                                    <input type="text" placeholder="Name" name="name">
-                                    <i class="lni-user"></i>
-                                </div>
-                            </div> 
-                            <div class="form-input mt-15">
-                                <label>Email</label>
-                                <div class="input-items default">
-                                    <input type="email" placeholder="Email" name="email">
-                                    <i class="lni-envelope"></i>
-                                </div>
-                            </div> 
-                            <div class="form-input mt-15">
-                                <label>Message</label>
-                                <div class="input-items default">
-                                    <textarea placeholder="Message" name="Message"></textarea>
-                                    <i class="lni-pencil-alt"></i>
-                                </div>
-                            </div> 
-                            <p class="form-message"></p>
-                            <div class="form-input rounded-buttons mt-20">
-                                <button type="submit" class="main-btn rounded-three">Submit</button>
-                            </div> 
-                        </form>
-                    </div> 
-                </div>
-            </div> 
-        </div> 
-    </section>
 
-    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+        </div>
+    </div>
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i></p>
+        </div>
+    </footer>
 
-    
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-
-   
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-
-   
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/scrolling-nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+    <script src="assets/js/johndoe.js"></script>
 
 </body>
-
 </html>
